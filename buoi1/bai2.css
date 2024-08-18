@@ -1,0 +1,61 @@
+/* Ẩn tất cả các slide theo mặc định */
+.slide {
+    display: none;
+    text-align: center;
+}
+
+.slideshow-container{
+    border-radius: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color:rgb(187, 239, 255);
+}
+#hienthithongtin {
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color:rgb(230, 249, 255);
+    padding:50px;
+}
+#hienthithongtin h2{
+    text-align: center;
+}
+
+/* Căn giữa bảng */
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.center-table th, .center-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Định dạng cho các nút điều hướng */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+    background-color: rgba(0,0,0,0.5);
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
